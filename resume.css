@@ -5184,3 +5184,14 @@ img.resume_top-photo{
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
 }
+
+.resume_section {
+    border: 5px solid #ccc;
+    -webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out;
+}
+
+.resume_section:hover {
+    margin-top: 2px;
+}
